@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather App</title>
+</head>
+<body>
+    <h1>Select a city to see the weather</h1>
+    <ul>
+        {{#each cities}}
+            <li><a href="/weather/{{this}}">{{this}}</a></li>
+        {{/each}}
+    </ul>
+</body>
+</html>
